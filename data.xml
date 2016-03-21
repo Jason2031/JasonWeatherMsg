@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<root>
+    <weatherURL>http://www.weather.com.cn/weather1d/%s.shtml</weatherURL>
+    <airURL>http://www.weather.com.cn/air/?city=%s</airURL>
+    <places>
+        <Beijing>101010100</Beijing>
+        <Guangzhou>101280101</Guangzhou>
+        <Haerbin>101050101</Haerbin>
+        <Maoming>101282001</Maoming>
+        <Sydney>601020101</Sydney>
+    </places>
+    <mailHost>HOST</mailHost>
+    <mailUser>USERNAME</mailUser>
+    <mailPsw>PSW</mailPsw>
+    <mailPostfix>POSTFIX</mailPostfix>
+    <nickName>NIKENAME</nickName>
+    <mailToList>
+        <item to='1@xx.com'>
+            <city>Beijing</city>
+            <city>Guangzhou</city>
+        </item>
+        <item to='2@xx.com'>
+            <city>Haerbin</city>
+            <city>Maoming</city>
+            <city>Sydney</city>
+        </item>
+    </mailToList>
+</root>
